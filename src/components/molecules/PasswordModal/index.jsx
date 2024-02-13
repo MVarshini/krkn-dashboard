@@ -1,6 +1,5 @@
 import {
   Button,
-  Form,
   FormGroup,
   Modal,
   ModalVariant,
@@ -52,7 +51,7 @@ const RootPasswordModal = () => {
       isOpen={isRootModalOpen}
       onClose={() => dispatch(checkForRootPassword(false))}
     >
-      <Form isWidthLimited>
+      <div>
         <FormGroup
           label="Super user password"
           isRequired
@@ -86,7 +85,7 @@ const RootPasswordModal = () => {
             text={"Submit"}
           />
         </div>
-      </Form>
+      </div>
     </Modal>
   );
 };
