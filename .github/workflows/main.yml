@@ -50,4 +50,4 @@ jobs:
               image: ${{ steps.build-krkn-dashboard.outputs.image }}
               tags: ${{ steps.build-krkn-dashboard.outputs.tags }}
               registry: quay.io/redhat-chaos/krkn
-        
+             
