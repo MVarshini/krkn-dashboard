@@ -203,7 +203,7 @@ db.exec(`CREATE TABLE IF NOT EXISTS config (
     name varchar(50),
     params json
   );`);
-//db.exec(`DROP TABLE details`);
+// db.exec(`DROP TABLE details`);
 db.exec(`CREATE TABLE IF NOT EXISTS details (
     container_id varchar(250) PRIMARY KEY,
     image varchar(150),
